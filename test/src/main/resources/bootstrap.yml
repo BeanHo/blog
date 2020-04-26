@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      username: admin
+      password: admin
+      name: test,eurekaclient
+      label: master
+      discovery:
+        enabled: true
+        serviceId: config
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin123@localhost:8100/eureka/
