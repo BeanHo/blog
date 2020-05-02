@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="blogmgr" />
+        <module name="category" />
+        <module name="comment" />
+        <module name="common" />
+        <module name="config" />
+        <module name="gateway" />
+        <module name="mybatis-generator" />
+        <module name="public" />
+        <module name="register" />
+        <module name="search" />
+        <module name="test" />
+        <module name="user" />
+        <module name="zipkin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="blog" target="1.8" />
+      <module name="blogmgr" target="1.8" />
+      <module name="category" target="1.8" />
+      <module name="client" target="1.8" />
+      <module name="comment" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="mybatis-generator" target="1.8" />
+      <module name="public" target="1.8" />
+      <module name="register" target="1.8" />
+      <module name="search" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="user" target="1.8" />
+      <module name="zipkin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
